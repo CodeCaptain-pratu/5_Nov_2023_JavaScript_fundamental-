@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            color:#fff;
+        }
+        h1{
+            padding: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+        button{
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is HTML page</h1>
+    <p>This is the default page color</p>
+    <!-- HTML is markup language used to define the structure of the webpage define heading(<h1>) and paragraph(<p>) and create the clickable button -->
+    <button onclick="changeColor()">Click here</button>
+    <script>
+        // here Javascript has used to define an eventlistener after clicking on the button the background color of the body changes to purple by default it was black and the content of the paragraph changes as well.This demonstrate how javascript adds the interactivity and dynamic behaviour of the webpage by responding to user actions
+        let body=document.querySelector("body");
+        let button=document.querySelector("button");
+        let para=document.querySelector("p");
+        button.addEventListener("click",function(){
+            body.style.backgroundColor="purple";
+            para.textContent="This is the changed color";
+        })
+    </script>
+</body>
+</html>
