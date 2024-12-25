@@ -1,5 +1,4 @@
-QUESTION:Explain the key differences between JavaScript and HTML. Provide examples of situations where
-you would use each.
+QUESTION:Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
 Answer:
 A) HTML
 1) HTML is a markup language used for structuring and presenting content on web pages.

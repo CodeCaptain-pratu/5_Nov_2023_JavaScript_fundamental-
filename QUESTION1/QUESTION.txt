@@ -4,4 +4,4 @@ Answer:
 2) JavaScript runs directly in browsers allowing developers to create features such as form validation, animation and real time updates.
 3) JavaScript interact with the Document Object Model(DOM) Which represent the webpage structure.This interaction enable developers to manipulate an modify the webpages content,styles and layouts in response to user actions.
 4) JavaScript also handles events making it possible to create interactive web applications.
-5) JavaScript also support asynchronous programming crucial for tasks like sending and receiving data from web servers without blocking the user interface. It has the vast ecosytem of libraries and frameworks such as React and Angular, that simplify and accelerate web develeopment.
+5) JavaScript also support asynchronous programming crucial for tasks like sending and receiving data from web servers without blocking the user interface. It has the vast ecosytem of libraries and frameworks such as React and Angular, that simplify and accelerate web development.

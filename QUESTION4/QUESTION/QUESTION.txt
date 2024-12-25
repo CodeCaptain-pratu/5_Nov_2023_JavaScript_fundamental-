@@ -1,5 +1,4 @@
-QUESTION:What is the purpose of declaring variables in JavaScript, and how do you declare them using the
-'let' keyword?
+QUESTION:What is the purpose of declaring variables in JavaScript, and how do you declare them using the 'let' keyword?
 Answer:
 1) The purpose of declaring the variables in JavaScript is to reserve the memory location for storing the data values that can be used throughout the programs. Variables act as a placeholder for data making it easier to work with and manipulate information in your code.Declaring variables allows you to :
 1) Variables can store various types of data such as numbers, text and objects.
@@ -9,7 +8,7 @@ Answer:
 
 Declaring the Variables using the 'let' keyword
 e.g) let name;
-1) let -> this keyword indicates that you have declred the variable
+1) let -> this keyword indicates that you have declared the variable
 2) name -> this is the variable name. You should use the JavaScript naming convention for naming the variable.
 
 Declaring and initializing the variable
